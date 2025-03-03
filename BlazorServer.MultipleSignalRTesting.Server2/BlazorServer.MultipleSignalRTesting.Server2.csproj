@@ -8,4 +8,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.14" />
 	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\BlazorServer.MultipleSignalRTesting.ConsoleApp\BlazorServer.MultipleSignalRTesting.ConsoleApp.csproj" />
+	</ItemGroup>
 </Project>

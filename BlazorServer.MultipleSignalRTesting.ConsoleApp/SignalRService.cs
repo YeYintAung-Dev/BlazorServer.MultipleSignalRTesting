@@ -16,7 +16,7 @@ public class SignalRService
             //    .WithUrl(_setting.IBankingHubConnectionUrl)
             //    .Build();
 
-            string[] urls = { "https://localhost:7000", "https://localhost:7001" }; // get ibanking servers
+            string[] urls = { "https://localhost:7000/chathub", "https://localhost:7001/chathub" }; // get ibanking servers
             _connections = new HubConnection[urls.Length];
             for (int i = 0; i < urls.Length; i++)
             {
@@ -41,7 +41,7 @@ public class SignalRService
         {
             if (connection.State == HubConnectionState.Disconnected)
                 await connection.StartAsync();
-            await connection.InvokeAsync("ReceiveMessage", "Console App","HI From Console");
+            await connection.InvokeAsync("SendMessage", "Console App","HI From Console");
         }
     }
 }
