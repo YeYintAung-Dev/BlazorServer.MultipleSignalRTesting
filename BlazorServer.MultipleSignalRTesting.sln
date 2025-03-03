@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServer.MultipleSignalRTesting", "BlazorServer.MultipleSignalRTesting\BlazorServer.MultipleSignalRTesting.csproj", "{A060F246-5B67-4FBA-9EEE-03C608BF64B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServer.MultipleSignalRTesting.Server2", "BlazorServer.MultipleSignalRTesting.Server2\BlazorServer.MultipleSignalRTesting.Server2.csproj", "{4B5C4C46-A421-4F5B-911E-FB949DD86B02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServer.MultipleSignalRTesting.ConsoleApp", "BlazorServer.MultipleSignalRTesting.ConsoleApp\BlazorServer.MultipleSignalRTesting.ConsoleApp.csproj", "{6B02F634-C3E8-4FD7-9D2A-922ED46E8A56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A060F246-5B67-4FBA-9EEE-03C608BF64B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A060F246-5B67-4FBA-9EEE-03C608BF64B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A060F246-5B67-4FBA-9EEE-03C608BF64B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A060F246-5B67-4FBA-9EEE-03C608BF64B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5C4C46-A421-4F5B-911E-FB949DD86B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5C4C46-A421-4F5B-911E-FB949DD86B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5C4C46-A421-4F5B-911E-FB949DD86B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5C4C46-A421-4F5B-911E-FB949DD86B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B02F634-C3E8-4FD7-9D2A-922ED46E8A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B02F634-C3E8-4FD7-9D2A-922ED46E8A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B02F634-C3E8-4FD7-9D2A-922ED46E8A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B02F634-C3E8-4FD7-9D2A-922ED46E8A56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
